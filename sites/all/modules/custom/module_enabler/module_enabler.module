@@ -1,0 +1,13 @@
+
+<?php
+
+function module_enabler_update_8001() {
+    $modules_to_enable = array(
+            'archive_news_page',
+            'latest_news_page',
+            'news_category_taxonomy',
+            'popular_news_page',
+            'news_content_type',
+            'rate_functionality');
+    module_enable($modules_to_enable);
+}

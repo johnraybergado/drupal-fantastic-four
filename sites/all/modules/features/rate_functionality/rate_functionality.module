@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Rate functionality feature.
+ */
+
+include_once 'rate_functionality.features.inc';

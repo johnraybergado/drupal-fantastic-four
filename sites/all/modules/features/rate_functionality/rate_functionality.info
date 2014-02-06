@@ -1,0 +1,16 @@
+name = Rate functionality
+core = 7.x
+package = Features
+version = 7.x-3.0
+project = rate_functionality
+dependencies[] = ctools
+dependencies[] = rate
+dependencies[] = strongarm
+dependencies[] = votingapi
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = rate_widgets
+features[variable][] = votingapi_anonymous_window
+features[variable][] = votingapi_calculation_schedule
+features[variable][] = votingapi_user_window
+project path = sites/all/modules/features

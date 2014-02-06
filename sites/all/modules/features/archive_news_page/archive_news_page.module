@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Archive news page feature.
+ */
+
+include_once 'archive_news_page.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Popular news page feature.
+ */
+
+include_once 'popular_news_page.features.inc';

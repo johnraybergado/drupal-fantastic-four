@@ -1,13 +1,16 @@
-
 <?php
 
-function module_enabler_update_8001() {
+function module_enabler_update_9031() {
     $modules_to_enable = array(
+            'features',
             'archive_news_page',
             'latest_news_page',
             'news_category_taxonomy',
             'popular_news_page',
             'news_content_type',
-            'rate_functionality');
+            'rate_functionality',
+            'secondary_menu',
+            'main_content_context',
+            'basic_pages');
     module_enable($modules_to_enable);
 }

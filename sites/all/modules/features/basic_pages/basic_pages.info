@@ -1,0 +1,15 @@
+name = Basic pages
+description = Basic pages at the footer
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = basic_pages
+dependencies[] = features
+dependencies[] = menu
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[menu_custom][] = menu-footer
+features[views_view][] = basic_pages
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/features

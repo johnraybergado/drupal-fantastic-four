@@ -1,0 +1,12 @@
+name = Main content context
+description = Provides the context for the main content
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = main_content_context
+dependencies[] = context
+dependencies[] = ctools
+features[context][] = main_content
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = sites/all/modules/features

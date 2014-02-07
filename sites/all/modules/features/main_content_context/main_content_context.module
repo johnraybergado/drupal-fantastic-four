@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Main content context feature.
+ */
+
+include_once 'main_content_context.features.inc';

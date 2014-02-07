@@ -1,7 +1,6 @@
-
 <?php
 
-function module_enabler_update_8008() {
+function module_enabler_update_8031() {
     $modules_to_enable = array(
             'archive_news_page',
             'latest_news_page',
@@ -10,6 +9,7 @@ function module_enabler_update_8008() {
             'news_content_type',
             'rate_functionality',
             'footer_menu_and_static_pages_content_type',
-            'secondary_menu');
+            'secondary_menu',
+            'main_content_context');
     module_enable($modules_to_enable);
 }

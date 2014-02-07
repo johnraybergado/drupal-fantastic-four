@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Footer menu and static pages content type feature.
+ */
+
+include_once 'footer_menu_and_static_pages_content_type.features.inc';
